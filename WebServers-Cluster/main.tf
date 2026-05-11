@@ -134,7 +134,7 @@ resource "aws_lb_listener_rule" "LB_listener_rule" {
 # }   
 
 resource "aws_security_group" "sg" {
-  name        = "${var.Cluster_Name}-sg"
+  name        = "${var.Cluster_Name}-sg-version2"
   description = "Security group for LB web servers"
 }
 
